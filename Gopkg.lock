@@ -2,14 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  digest = "1:6f9339c912bbdda81302633ad7e99a28dfa5a639c864061f1929510a9a64aa74"
-  name = "github.com/dustin/go-humanize"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "9f541cc9db5d55bce703bd99987c9d5cb8eea45e"
-
-[[projects]]
   branch = "experiment"
   digest = "1:5c09c547689fa9852fde84f98d0f3655db1dda0815a6321664b4e1ea115dca5c"
   name = "github.com/rockacola/go-chance"
@@ -20,9 +12,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/dustin/go-humanize",
-    "github.com/rockacola/go-chance",
-  ]
+  input-imports = ["github.com/rockacola/go-chance"]
   solver-name = "gps-cdcl"
   solver-version = 1
