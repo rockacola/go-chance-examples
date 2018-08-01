@@ -16,4 +16,5 @@ func main() {
 	fmt.Println("TypeOf:", reflect.TypeOf(c))
 	fmt.Println("Natural():", c.Natural())
 	fmt.Println("Bool():", c.Bool())
+	fmt.Println("Animal():", c.Animal())
 }
