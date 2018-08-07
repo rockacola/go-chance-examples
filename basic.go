@@ -2,19 +2,26 @@ package main
 
 import (
 	"fmt"
-	"reflect"
 
 	chance "github.com/rockacola/go-chance"
 )
 
 func main() {
-	fmt.Println("=== Basic go-chance examples ===")
+	fmt.Println("=== Basic Demo ===")
 
-	fmt.Println("Instantiate without provided seed...")
+	// Arrange
 	c := chance.NewChance()
 
-	fmt.Println("TypeOf:", reflect.TypeOf(c))
-	fmt.Println("Natural():", c.Natural())
+	// Basics
 	fmt.Println("Bool():", c.Bool())
+	fmt.Println("Character():", c.Character())
+	fmt.Println("Floating():", c.Floating())
+	fmt.Println("Integer():", c.Integer())
+	fmt.Println("Letter():", c.Letter())
+	fmt.Println("Natural():", c.Natural())
+	fmt.Println("Prime():", c.Prime())
+	fmt.Println("String():", c.String())
+
+	// Things
 	fmt.Println("Animal():", c.Animal())
 }
