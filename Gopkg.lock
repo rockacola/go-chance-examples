@@ -3,14 +3,14 @@
 
 [[projects]]
   branch = "experiment"
-  digest = "1:64891f3d6000e27ba5139843420dfd95463f070500dff8d39dd813591ac09823"
+  digest = "1:3be1fa0f6d753215247dc55ea3eb1a3b7cf4e4756291167c632123d574b1e58e"
   name = "github.com/rockacola/go-chance"
   packages = [
     ".",
     "data",
   ]
   pruneopts = "UT"
-  revision = "d52051c6a5741953053f8f973b4ed8ecdfdbac4d"
+  revision = "f832ab866ba68a065a1a96fc746091e454d0f888"
 
 [solve-meta]
   analyzer-name = "dep"
