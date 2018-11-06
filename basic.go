@@ -55,6 +55,30 @@ func main() {
 	fmt.Println("Ipv6():", c.Ipv6())
 	fmt.Println("Klout():", c.Klout())
 	fmt.Println("Profession():", c.Profession())
+	fmt.Println("Twitter():", c.Twitter())
+	fmt.Println("Url():", c.Url())
+
+	// Location
+	fmt.Println("City():", c.City())
+	fmt.Println("AreaCode():", c.AreaCode())
+	fmt.Println("Altitude():", c.Altitude())
+	fmt.Println("Longitude():", c.Longitude())
+	fmt.Println("Latitude():", c.Latitude())
+	fmt.Println("Coordinates():", c.Coordinates())
+	fmt.Println("Depth():", c.Depth())
+	fmt.Println("Geohash():", c.Geohash())
+	fmt.Println("CanadianPostal():", c.CanadianPostal())
+	fmt.Println("UsZipCode():", c.UsZipCode())
+
+	// Time
+	fmt.Println("AmPm():", c.AmPm())
+	fmt.Println("Year():", c.Year())
+	fmt.Println("Month():", c.Month())
+	fmt.Println("Hour():", c.Hour())
+	fmt.Println("Minute():", c.Minute())
+	fmt.Println("Second():", c.Second())
+	fmt.Println("Millisecond():", c.Millisecond())
+	fmt.Println("Weekday():", c.Weekday())
 
 	// Text
 	fmt.Println("Syllable():", c.Syllable())
